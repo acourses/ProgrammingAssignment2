@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
   setValue <- function(newX = matrix()) {
     value <<- newX
-    cachedInverse <- NULL
+    cachedInverse <<- NULL
   }
 
   getValue <- function() value
